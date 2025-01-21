@@ -68,6 +68,16 @@ footer a:hover {
     color: #635d70;
 }
 
+.footer-subline {
+    font-size: 13px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-subline a {
+    padding: 0;
+}
+
 /* Splash Section */
 .splash {
     display: block;
