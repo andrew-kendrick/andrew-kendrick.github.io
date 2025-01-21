@@ -96,6 +96,10 @@ footer a:hover {
     color: #fff;
 }
 
+.tagline {
+    font-weight: 500;
+}
+
 /* Horizontal Rules */
 hr {
     margin-top: 0px;
