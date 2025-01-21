@@ -5,20 +5,8 @@ body {
     color: #fff;
 }
 
-a {
-    color: #d7cee9;
-    text-decoration: none;
-    transition: color 0.1s;
-}
-
-a:hover {
-    color: #635d70;
-}
-
 /* Nav Styles */
 nav {
-    font-size: 1.2em;
-    font-family: "Roboto Slab", serif;
     background-color: #2A2438;
     top: 0;
     display: flex;
@@ -40,6 +28,8 @@ nav p{
 }
 
 nav p, nav a {
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
 }
 
 nav a {
@@ -64,13 +54,18 @@ footer {
     padding: 25px 50px;
     justify-content: center;
     font-family: "Roboto Slab", serif;
+    font-size: 18px;
 }
 
 footer a {
     padding: 0 5px;
+    color: #d7cee9;
+    text-decoration: none;
+    transition: color 0.1s;
 }
 
 footer a:hover {
+    color: #635d70;
 }
 
 /* Splash Section */
@@ -132,7 +127,7 @@ section h2 {
 }
 
 /* Paragraph Styles */
-section p {
+.education {
     font-size: 1.1em;
 }
 
@@ -226,9 +221,12 @@ form input, form textarea {
     border: 1px solid #2A2438;
     color: #fff;
     margin: 10px 0px;
+    transition: background-color 0.3s;
 }
 
-form input:focus, form textarea:focus {}
+form input:focus, form textarea:focus {
+    background: #2A2438;
+}
 
 form button {
     font-family: "Mona Sans", serif;
